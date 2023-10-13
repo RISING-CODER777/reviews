@@ -137,7 +137,7 @@ const Home: NextPage = () => {
 <input
     onChange={onChange}
     type="text"
-    placeholder="Add a comment"
+    placeholder="Add a Review"
     className="p-2 border-b focus:border-b-gray-700 w-3/4 outline-none"
     value={comment}
   />
