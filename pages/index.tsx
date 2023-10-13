@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-      <h1 className="text-4xl font-bold ">Comments</h1>
+      <h1 className="text-4xl font-bold ">Add a Review</h1>
       <form onSubmit={onSubmit} style={{ marginTop: '8px', display: 'flex', gap: '8px' }}>
         <div style={{ width: '100%' }}>
           {replyOf && (
