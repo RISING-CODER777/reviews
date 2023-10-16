@@ -105,7 +105,7 @@ const Home: NextPage = () => {
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { data, error } = await supabase.from("comments").insert({
-      username: "cp@email.com",
+      username: "cp@gmail.com",
       payload: comment,
       reply_of: replyOf,
     });
